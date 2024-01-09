@@ -1,10 +1,12 @@
+import LearnProps from "./components/LearnProps";
 import ListGroup from "./components/ListGroup";
 
 function App() {
+  let items = ["Sri Lanka", "India", "USA", "Canada"];
   return (
     <h1>
       <ListGroup />
-      <ListGroup />
+      <LearnProps items={items} heading="Countries" />
     </h1>
   );
 }
